@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: bisque;
+}
+nav {
+    background-color: black;
+    height: 50px;
+    color: white;
+}
+.container {
+    width: 100%;
+    height: 450px;
+    background-color: grey;
+    text-align: center;
+}
+.container-fluid img {
+    height: 50px;
+    width: 50px;
+    border-radius: 0px;
+}
+.h-primary {
+    color: white;
+    font-weight: 800;
+    padding: 20px;
+}
+.small-container {
+    position: relative;
+    width: 50%;
+    height: 400px;
+    border: 1px solid lightgrey;
+    left: 370px;
+    bottom: 300px;
+    background-color: white;
+    border-radius: 10px;
+}
+#person {
+    position: relative;
+    left: 312px;
+}
+#photo {
+    margin-top: 19px;
+    border: 1px solid black;
+    width: 17%;
+    height: 127px;
+    border-radius: 5px;
+}
+#name {
+    position: relative;
+    top: 2px;
+    left: -32px;
+    color: cornflowerblue;
+}
+
+#details {
+    position: relative;
+    left: 260px;
+    top: 16px;
+    color: red;
+    font-weight: bolder;
+    font-size: larger;
+}
+header {
+    position: relative;
+    bottom: -121px;
+    left: 170px;
+}
+#getUser {
+    width: 439px;
+    height: 41px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+#getUser:hover {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+
+.a-e-p {
+    position: relative;
+    left: 221px;
+    top: 100px;
+}
+.a-e-p button {
+    margin-right: 10px;
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 106px;
+    height: 31px;
+}
+.a-e-p button:hover {
+    background-color: black;
+    color: white;
+}
